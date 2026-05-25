@@ -1,3 +1,3 @@
 agentcode
-- monorepo with mutliple packages
+- monorepo with multiple packages
 - setup with bun workspaces

@@ -53,8 +53,7 @@ export function useCommandMenu(): UseCommandMenuReturn {
 
     const prefix = text.startsWith("/") ? text.slice(1) : null;
 
-    if (prefix !== null && !prefix.includes(" ")) {
-         setShowCommandMenu(true);
+   if (prefix !== null && !/\s/.test(prefix)) {         setShowCommandMenu(true);
     } else {
           setShowCommandMenu(false)
     }

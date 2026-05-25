@@ -8,7 +8,7 @@ function App() {
   return (
     <box alignItems="center" justifyContent="center" backgroundColor={'#0D0D12'} width={'100%'} height={'100%'} gap={2} paddingX={4}>
       <Header />
-      <InputBar />
+      <InputBar onSubmit={ } disabled={false} key={}/>
     </box>
   );
 }
