@@ -5,10 +5,13 @@ import { StatusBar } from "./components/status-bar";
 import { InputBar } from "./components/input-bar";
 
 function App() {
+  const handleSubmit = (text: string) => {
+    console.log('')
+  };
   return (
     <box alignItems="center" justifyContent="center" backgroundColor={'#0D0D12'} width={'100%'} height={'100%'} gap={2} paddingX={4}>
       <Header />
-      <InputBar onSubmit={ } disabled={false} key={}/>
+      <InputBar onSubmit={handleSubmit} disabled={false} />
     </box>
   );
 }

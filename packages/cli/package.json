@@ -1,5 +1,5 @@
 {
-  "name": "@/agentcode/cli",
+  "name": "@agentcode/cli",
   "module": "src/index.tsx",
   "type": "module",
   "private": true,
@@ -11,7 +11,7 @@
     "@types/react": "^19.2.15"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": ">=5.4.0 <6"
   },
   "dependencies": {
     "@opentui/core": "^0.2.15",
